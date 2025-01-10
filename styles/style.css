@@ -1,0 +1,49 @@
+/* Universal Scale Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0 160px;
+}
+.header, .main{
+    background-color: #f5f5f5;
+}
+
+
+/* Shared Style */
+.section-title{
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.topic-title{
+    font-size: 32px;
+    color: #0E0E0E;
+
+}
+
+/* Header Style */
+
+
+
+
+/* NavBar Style */
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .btn-signIn{
+    width: 116px;
+    height: 52px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 26px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: #006A50;
+    
+}
