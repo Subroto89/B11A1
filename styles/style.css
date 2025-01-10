@@ -10,23 +10,35 @@ body{
 .header, .main{
     background-color: #f5f5f5;
 }
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #OE0E0E;
+  }
 
 
 /* Shared Style */
 .section-title{
     font-size: 40px;
-    color: #0E0E0E;
+    
 }
 
 .topic-title{
     font-size: 32px;
-    color: #0E0E0E;
-
 }
 
-/* Header Style */
-
-
+.btn-common{
+    width: 122px;
+    height: 41px;
+    border:#000000;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color:#09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
 
 
 /* NavBar Style */
@@ -46,4 +58,53 @@ nav .btn-signIn{
     font-weight: 600px;
     color: #006A50;
     
+}
+
+/* Hero Style */
+header .hero{
+    background-color: #C6E4D6;
+    padding: 80px 59.99px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .hero img{
+    width: 474.03px;
+    height: 400px;
+}
+header section .hero-content{
+    width: 622px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header section h4{
+    font-size: 24px;
+    font-weight: 500px;
+    opacity: 50%;
+}
+header section h1{
+    font-size: 44px;
+    font-weight: 500px;
+    
+}
+header .hero .btn-common{
+    width: 122px;
+    height: 41px;
+    border:#000000;
+    border-radius: 8px;
+    padding: 11px 20px;
+    background-color:#09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+header .hero .hero-content .btn-self{
+    font-weight: 600;
+    padding: 17px 34px;
+    width: 270px;
+    height: 56px;
 }
