@@ -41,7 +41,7 @@ body{
     font-size: 14px;
     font-weight: 600;
     color: #cfb2b2;
-    hover: #
+    cursor: pointer;
 }
 
 .card-common{
