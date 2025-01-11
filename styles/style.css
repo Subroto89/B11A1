@@ -32,7 +32,7 @@ body{
 }
 
 .btn-common{
-    width: 104px;
+    width: 130px;
     height: 35px;
     border:#000000;
     border-radius: 7px;
@@ -56,6 +56,32 @@ body{
     height: 200px;
     border-radius: 14px;
     padding: 27px 27px;
+}
+.recent-news-common{
+   width:1110px;
+   height: 342px;
+   background-color: #FFFFFF;
+   padding: 41px 41px; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.satelite-photo-common{
+    width: 347px;
+    height: 260px;
+    border-radius: 20px;
+}
+.news-text-container-common{
+    width: 735px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.news-text-logo{
+    width: 114px;
+    height: 34px;
 }
 
 /* NavBar Style */
