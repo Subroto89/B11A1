@@ -77,7 +77,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 .news-text-logo{
     width: 114px;
@@ -235,3 +234,9 @@ header .hero .hero-content .btn-self{
     color: rgba(14, 14, 14, 0.80);
     margin-bottom: 4px;
 }
+
+.main .recent-news-1{
+    margin-bottom: 20px;
+     
+ }
+ 
