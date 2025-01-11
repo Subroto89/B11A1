@@ -42,6 +42,12 @@ body{
     font-weight: 600;
     color: #cfb2b2;
     cursor: pointer;
+    
+}
+
+.btn-common:hover{
+    background-color: #786b6b;
+    color: #FFFFFF;
 }
 
 .card-common{
